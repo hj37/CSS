@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS basic</title>
+<link href="basic.css" rel="stylesheet">
+<style type="text/css">
+
+h1 { color:green;}
+
+h2 {color:olive;}
+
+#ul01 {background-color:lime;}
+
+#ul02 {background-color:yellow;}
+
+.bg-bk {background-color:black;}
+.bg-ol {background-color:olive;
+color:yellow;}
+
+
+</style>
+
+</head>
+<body>
+
+<h1 class ="bg-bk">CSS basic</h1>
+<pre>
+선택자 {
+  속성:속성값;
+  속성:속성값;
+    ...
+   }
+</pre>
+
+
+
+
+<h2 class ="bg-bk">CSS 적용방법 3가지</h2>
+<ul id="ul01">
+<li>External CSS - CSS소스가  HTML문서와 따로 독립되어 연결된 형태 
+여러 웹문서에 일관된 디자인 적용, 유지보수 용이.
+</li>
+<li>Internal CSS - CSS소스가 HTML문서의 head태그 안에 있는 형태
+(해당 HTML문서내에서만 적용)
+ </li>
+<li style="color:#666;background-color:#030;">Inline CSS - CSS소스가 HTML태그 바로 뒤에 있는 형태</li>
+Inline CSS - CSS소스가 HTML태그 바로 뒤에 있는 형태. 일관된 디자인 불가,
+유지보수 어려움 (CSS적용 우선순위가 가장 높음)
+</ul>
+
+
+<h2 class ="bg-bk">선택자 종류 중 대표 3가지 </h2>
+<ul id="ul02">
+<li><b class="bg-ol">tag선택자()</b> - tag 그대로 불러와서 선택자로 적용. (강제적, 자동적 적용)</li>
+<li><b class="bg-ol">ID선택자 (#)</b> - tag에 ID명을 지정하고 ID값을 불러와서 선택자로 적용.구조적인 용도 </li>
+	(ID값은 중복적용이 불가하므로 같은 스타일을 다른 요소에 적용할 수 없음)</li>
+<li><b class="bg-ol">class선택자 (.)</b> - tag에 class명을 지정하고 class값을 불러와서 선택자로 적용. 디자인적인 용도</li>
+	(class값은 중복적용이 가능하므로 같은 스타일을 여러 요소에 동시 적용할 수 있음)
+</li>
+</ul>
+
+
+
+</body>
+</html>
