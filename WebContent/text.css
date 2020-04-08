@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+body {font-family: 'Nanum Gothic', sans-serif; } 
+
+/* font-family: 'Jua', sans-serif;
+font-family: 'Nanum Gothic', sans-serif; */
+
+h1, h2 { 
+background-color: #ccc;	
+font-family: 'Jua', sans-serif;
+font-weight:normal;
+color:#333;}
+
+section {border: 3px solid #999;
+margin: 2em 1em; /*여백*/
+padding: 1.5em 1em;}
+
+#sec01>p {border: 1px solid; }
+#sec01>h2 {width:400px;
+text-align:center;}
+
+.tal01{text-align: left;}
+.tal02{text-align: center;}
+.tal03{text-align: right;}
+.tal04{text-align:justify;}
+
+table{background-color:#7cf; width:500px; height: 80px;}
+th,td{border: 1px solid;}
+
+p>img {border: 1px solid #f00;}
+
+#sec01>input{
+	border:1px solid #375;
+	background-color: #aec;
+	width:300px; height:30px;
+}
+
+#in-te01{text-align:left;}
+#in-te02{text-align:center;}
+#in-te03{text-align:right;}
+
+.w500 {width: 500px;}
+.tde01 {text-decoration:overline;}
+.tde02 {text-decoration:line-through;}
+.tde03 {text-decoration:underline;}
+.tde04>a {text-decoration:none;}
+/*링크의 밑줄을 없애기 */
+.tde04>a:hover{
+/* 마우스오버시 */
+	text-decoration:underline;
+/* 	링크의 밑줄을 나타내게
+ */}
+ 
+/*  text-indent */
+
+#sec03>p {border: 1px solid #388}
+
+.tind01{text-indent:30px;}
+.tind02{text-indent:3em;}
+.tind03{text-indent:30%;}
+.tind04{text-indent:-50px;}
+.tind04.hover{text-indent:0;color:#388;}
+
+/* text-transform */
+.ttr00{text-transform: none;}
+.ttr01{text-transform: lowercase;}
+.ttr02{text-transform: uppercase;}
+.ttr03{text-transform: capitalize;}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>margin</title>
+<link href="margin.css" rel="stylesheet">
+</head>
+<body>
+<h1>margin - <i>border 기준</i> 바깥 여백</h1>
+<pre>
+	box-model에서 테두리를 기준으로 
+	
+바깥에 양사방 적용되는 여백을 margin.
+안쪽에 양사방 적용되는 여백을 padding이라 한다.;
+</pre>
+
+<h2>margin의 방향별 지정 속성</h2>
+<ul id="m-di">
+<li class="mt">margin-top: ; </li>
+<li class="mr">margin-right: ; </li>
+<li class="mb">margin-bottom: ; </li>
+<li class="ml">margin-left: ; </li>
+</ul>
+
+<div class="login">
+<label for="id" class="la01">id</label>
+<input type="text" id="id">
+</div>
+
+<h2>margin의 속성 값의 갯수별 지정법</h2>
+<ul id="m-n">
+<li class="mn01">margin:n ; 양사방 동일하게 적용</li>
+<li class="mn02">margin:n n ; 상하, 좌우가 서로 동일하게 적용</li>
+<li class="mn03">margin:n n n ; 상, 좌우가 서로 동일하게, 하 순서로 적용</li>
+<li class="mn04">margin:n n n n; 상,우,하,좌 순서로 적용 </li>
+</ul>
+
+<div class="cen">
+<h3>margin을 이용한 center정렬법</h3>
+<p>margin-left: auto;<br>
+margin-right: auto;<br>
+or <br>
+margin: n auto;
+</p>
+</div>
+
+</body>
+</html>

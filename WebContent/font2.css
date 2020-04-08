@@ -2,8 +2,11 @@
 
 html {font-size: 10px;}
 
-body{font-size: 10px;}
+body{font-family : 'Nanum Gothic', sans-serif;
+}
 
+
+h1{font-family :'Black Han Sans', sans-serif;}
 
 section {border: 4px double #666;
 margin: 5em 0;
@@ -48,4 +51,22 @@ color:#fff;
 /* 부모요소의 클래스명이 fst03인 자식요소i태그에 
 마우스를 올렸을때  */
 	font-style: normal;
+}
+
+/* font-family: 'Nanum Gothic Coding', monospace;
+ */
+ .seri {font-family:"Times New Roman","Georgia",serif;}
+.sans {font-family: "Verdana", "Arial",sans-serif;}
+
+/* 
+font-family: 'Single Day', cursive;
+font-family: 'Gaegu', cursive;
+*/
+
+.ffm-gaegu{
+	font-family: 'Gaegu', cursive;
+}
+
+.ff01{
+	font-family: 'Single Day', cursive;
 }

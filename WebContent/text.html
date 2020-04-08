@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>text- 로 시작하는 글자 속성들</title>
+<link href="text.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>text- 로 시작하는 글자 속성들</h1>
+<ul>
+	<li>text-align: ; 글자의 수평정렬</li>
+	<li>text-decoration: ; 글자의 줄들</li>
+	<li>text-indent: ; 글자 들여쓰기 </li>
+	<li>text-transform: ; 영문 대소문자 변경</li>
+	<li>text-shadow: ; 글자의 그림자 지정</li>	
+	<li>text-overflow: ; 영역밖의 글자 상태</li>
+</ul>
+
+<section id="sec01">
+<h2>text-align: ; 글자의 수평정렬</h2>
+
+<p class="tal01">text-align: ; 왼쪽 정렬(기본)</p>
+<p class="tal02">text-align: ; 중앙 정렬</p>
+<p class="tal03">text-align: ; 오른쪽 정렬</p>
+<p class="tal04">text-align: ; 양끝 정렬
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia finibus ex id ultricies. Pellentesque sapien nisi, porttitor sit amet magna nec, tempor scelerisque tellus. Aenean convallis suscipit metus, quis tincidunt enim ullamcorper eu. Phasellus ut tellus sed erat tristique luctus non sed ligula. Proin sed eros convallis, sodales neque sed, elementum purus. Phasellus id turpis leo. Aliquam elementum eros sed tortor sodales, ac congue ex mollis. Praesent a lorem non nunc pulvinar varius sit amet vitae lectus. Fusce vel nisi ac nisi imperdiet lobortis eu ut nisl. Phasellus mollis neque nisi, non dictum diam luctus vel. Donec sodales quam malesuada justo vulputate, a tempus leo tempus. Sed lacinia non quam eu mollis. Ut efficitur imperdiet volutpat. Ut volutpat eleifend commodo. Nullam ut ipsum et mauris venenatis commodo.
+</p><br><!--  https://lipsum.com/ -->
+
+<table>
+<tr>
+<th>일</th>
+<th class="tal01">제목칸 정렬</th>
+</tr>
+<tr>
+<td colspan="2" class="tal02">text-align:center</td>
+</tr>
+<tr>
+<td colspan="2" class="tal03">text-align:right 
+</td>
+</tr>
+</table>
+
+<p class="tal02">text-align: center;<br>
+<img alt="serif" src="serif.gif">
+</p>
+
+<input type="text" value="text-align:left" id="in-te01">
+<input type="text" value="text-align:center" id="in-te02">
+<input type="text" value="text-align:right" id="in-te03">
+
+<p class="tal02 w500">text-align은 <br>
+컨텐츠가 태그 영역 내에서 ~정렬됨 <br>
+(태그 자신이 수평으로 중앙이나 우측으로 가는 것이 아님!!)
+</p>
+</section>
+
+<section id="sec02">
+ <h2>text-decoration: ; 글자의 충돌</h2>
+ 
+ <p class="tde01">text-decoration: overline; 글자의 충돌</p>
+ <p class="tde02">text-decoration: line-through; 글자의 충돌</p>
+ <p class="tde03">text-decoration: underline; 글자의 충돌</p>
+ <p class="tde04">text-decoration: 
+ <a href="#">none</a>; 글자의 충돌 <br>
+ text-decoration: none으로 링크의 밑줄을 없애려면 
+ 반드시 a태그에 적용해야 함)
+ </p>
+</section>
+
+<section id="sec03">
+<h2>text-indent: ; 글자 들여쓰기</h2>
+
+<p class="tind01">text-indent:30px; 글자 들여쓰기
+(첫 줄에만 들여쓰기가 적용됨)</p>
+<p class="tind02">text-indent:3em; 글자 들여쓰기</p>
+<p class="tind03">text-indent:30$; 글자 들여쓰기</p>
+<p class="tind04">text-indent:-50px;(음수 가능) 글자 들여쓰기</p>
+
+</section>
+<section id="sec04">
+<h2>text-transform: ; 영문 대소문자 변경</h2>
+
+<p class="ttr00">tExt-tRaNSfoRm:none ; 영문 대소문자(비교용)</p>
+<p class="ttr01">tExt-tRaNSfoRm:loWerCAse; 영문 전체를 소문자로..</p>
+<p class="ttr02">tExt-tRaNSfoRm:upPErcAsE; 영문 전체를 대문자로..</p>
+<p class="ttr03">tExt-tRaNSfoRm:caPitAliZe; 단어의 첫 글자를 대문자로..</p>
+
+</section>
+
+
+</body>
+</html>

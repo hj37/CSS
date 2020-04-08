@@ -1,0 +1,81 @@
+@charset "EUC-KR";
+
+ul#p-di>li {border: 1px solid #009;}
+
+.pt {padding-top: 20px;}
+.pr {padding-right: 50px;
+text-aligin: right;}
+.pb {padding-bottom: 30px;}
+.pl {padding-left: 20px;}
+
+.login{background-color: #000;
+color: #fff;
+padding: 2em;
+}
+
+.la01,#id{background-color: #333;
+padding-top: 0.3em;
+padding-right: 1em;
+padding-bottom:0.5em;
+padding-left: 1em;}
+
+/* padding으로 폴라로이드 효과 */
+.im-p {border:1px solid #333;
+height: 400px;
+margin: 20px;
+padding-top: 10px;
+padding-right: 12px;
+padding-bottom: 80px;
+padding-left: 12px;
+}
+
+.im-p2 {border:1px solid #333;
+width: 300px;
+height: 400px;
+margin: 20px;
+padding: 20px 20px 100px;
+font-weight: 500;
+font-size: 2.7em;
+font-family: "Freestyle Script",cursive;
+text-align:right;
+text-transform: capitalize;
+color: #093;}
+
+.im-p2>img {width: 300px; opacity:0.5; /*투명도 조절 */}
+
+.im-p2:hover>img {opacity: 1;}
+	
+/* padding 속성 값의 갯수별 지정법 */
+
+ul#p-n {border: 1px solid #288;
+padding-left: 0;
+} 
+
+ul#p-n>li{
+background-color:#5dd;
+margin-bottom: 0.7em;}
+
+.pn01 {padding: 80px;}
+
+.pn02 {padding: 10px 50px;}
+
+.pn03 {padding: 10px 20% 0;}
+
+.pn04 {padding: 0 20% 30px 25%;}
+
+#pg_list { /* border: 1px solid red; */
+margin: 5em auto; /* 영역 전체가 브라우저 가운데로 */
+width: 500px;
+text-align: center;	/* 영역내의 컨텐츠들이 가운데로 */
+}
+
+/*page list a */
+#pg_list>a {background-color: #26d; color: #fff;
+margin-right: 1em;
+padding: 0.5em 1em;
+text-decoration: none;}
+
+#pg_list>a:hover{
+	background-color: #7af; color:#26d;
+}
+	

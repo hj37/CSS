@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>box-model</title>
+<link href="box.css" rel="stylesheet">
+</head>
+<body>
+<h1>box-model</h1>
+<ol>
+<li><span>inline요소 - 한 줄에 나란히 오는 요소</span></li>
+크기를 적용할 수 없고 margin은 상하는 불가, 좌우만 가능.
+<li><span>block요소- 한 줄에 나란히 올 수 없는 요소</span></li>
+크기를 적용할 수 있고 margin은 상하좌우 가능.
+</ol>
+
+<section id="sec01">
+<h2>inline요소 - 한 줄에 나란히 오는 요소</h2>
+
+<b class="in">b tag</b> <i class="in">i tag</i>	
+<span class="in">span tag</span>
+<a class="in">a tag</a> <label class ="in">label tag</label>
+</section>
+
+<section id="sec02">
+<h2>block요소 - 한 줄에 나란히 올 수 없는 요소</h2>
+
+<p>p tag</p> <div>div tag</div> <h3>h3 tag</h3>
+<ul>
+<li>li tag</li>
+<li>li tag</li>
+</ul>
+</section>
+
+<section id="sec03">
+<h2>box-sizing 요소의 크기 계산법</h2>
+
+<div class="box">box-sizing</div>
+<ol>
+<li><span>box-sizing:content-box;기본값.</span><br>
+ 정확히 컨텐츠 영역만 크기로 계산됨(border와 padding은 별개)<br>
+ border나 padding이 추가되면 요소가 차지하는 공간이 켜짐
+</li>
+<li><span>box-sizing:border-box;</span><br>
+컨텐츠 영역과 border, padding을 더한 크기로 계산됨<br>
+ border나 padding이 추가되면 요소가 차지하는 공간이 변화 없음
+</li>
+</ol>
+
+<div class="c-box">
+box-sizing:content-box;
+</div>
+<div class="b-box">
+box-sizing:border-box;
+</div>
+
+<div class="big">
+<div class="small">small1</div><div class="small">small2</div><div class="small">small3</div>
+</div>
+
+</section>
+
+
+</body>
+</html>
