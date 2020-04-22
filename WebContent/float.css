@@ -1,0 +1,59 @@
+@charset "EUC-KR";
+div {margin-bottom: 5em;}
+
+.float-l{border: 2px solid #999;
+width: 770px;}
+
+.float-l>img {float:left;
+margin-right:1em;}
+
+.float-l>p {border: 1px solid red;}
+
+.float-r{border: 2px solid #444;
+width: 770px;}
+
+.float-r>img {float:right;
+margin-left: 1em;}
+
+.float-r>p{border: 1px solid red;
+text-align: rigth;}
+
+.float-lr{border: 2px solid #d44;
+width: 1200px; /* height:800px; */
+overflow: hidden;}
+
+.float-lr>img {float: left;}
+.float-lr>p {border: 1px solid #00a;
+width: 200px;
+float:right;}
+
+.page, .page-r{border: 1px solid #555; 
+width:1000px;
+float:left;
+margin-right: 1em;}
+
+
+.page>p, .page-r>p{border: 1px solid #005;
+width:800px; height:300px;}
+
+.page>nav, .page-r>nav {border: 1px solid #fa0;
+	/* 관계선택자 >는 상위요소의 바로 아래에 있는 하위요소를
+	불러옴 (자식선택자) */
+}
+
+.page ul, .page-r ul{border: 1px solid #f99;
+/* 관계선택자  는(공백) 상위요소의 아래에 있는 하위요소를 불러옴. 속해 있기만 하면 됨.(자손선택자) */
+overflow: hidden;
+list-style: none;}
+
+.page li {border: 1px solid #f00;
+float:left;
+margin-right:0.7em;
+width: 1.5em;}
+
+.page a, .page-r a{background-color: #9cf;
+padding: 2px 6px; }
+
+.page-r li {border: 1px solid #f00;
+float:right
+}

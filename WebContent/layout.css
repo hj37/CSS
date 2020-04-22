@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+header {border: 1px solid red;}
+
+header>h1 {/* border: 1px solid blue;  */
+float:left;
+margin: 30px 0 30px 80px;}
+header>form {/* border: 1px solid red;  */
+float:right;
+margin: 30px 20px 0}
+header>nav {
+background-color: #299;
+height:50px; clear: both;} /* float의 영향을 끊어줌(제자리로) */
+
+header>nav>ul {border: 1px solid #f90;}
+header>nav li {border: 1px solid #4f0;
+float: left;}
+
+
+article {border: 1px solid blue;
+float: left;
+width: 80%;}
+
+
+section {border: 1px solid green;
+padding: 1em;}
+
+.sec01, .sec02 { float: left;
+/* 주제영역 1,2를 나란히 배치 */
+width: 42%;	/* 각 영역의 너비 */
+margin: 2em 1%; /* */
+}
+
+ .sec03 {clear: both; /* //주제 영역 1,2가 
+float된 영향을 받아서 밀고 올라왔음.
+제자리로 내려보내기 위해 */
+width:95%;
+margin: 2em 1%;
+overflow: hidden; /*자식들이 float으로 빠져나가면 부모는 높이값을 잃어버림. 형태유지용  */} 
+
+.sec03>p {
+width:55%;float: left;
+margin: 1em 1%;	
+}
+
+.sec03>img {
+width:40%;float: right;
+margin : 1em 1%;
+}
+
+.sec01>img, .sec02>img {width:70%;
+float: left;
+margin : 1em;}
+
+aside {border: 1px solid skyblue;
+float: right;
+width: 18%;
+text-align: center;
+
+}
+
+footer {border: 1px solid red;
+clear: both;	/*float영향을 끊어줌*/
+}
