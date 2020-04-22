@@ -12,10 +12,22 @@ header>nav {
 background-color: #299;
 height:50px; clear: both;} /* float의 영향을 끊어줌(제자리로) */
 
-header>nav>ul {border: 1px solid #f90;}
-header>nav li {border: 1px solid #4f0;
-float: left;}
+header>nav>ul {border: 1px solid #f90;
+float: right;
+list-style: none;
+margin-right: 30px;}
+header>nav li {background-color:#4f0;
+float: left;
+margin-left:20px;
+width:150px; height: 30px;
+text-align:center;
+line-height:30px;}
 
+header>nav li:hover{background-color:#000;}
+
+header>nav a{text-decoration: none;
+color: #fff;
+font-weight:700;}
 
 article {border: 1px solid blue;
 float: left;
