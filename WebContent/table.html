@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<link href="table.css" rel="stylesheet">
+
+<title>Insert title here</title>
+</head>
+
+<body>
+<h1>table</h1>
+<table>
+<tr>
+<th>name</th>
+<th>birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+</table>
+
+<h2>table-layout:auto/fixed;</h2>
+<table class="tab01">
+<tr>
+<th colspan="2">table-layout: auto;</th>
+</tr>
+<tr>
+<th>name</th>
+<th>birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+</table>
+
+
+
+
+<table class="tab02">
+<tr>
+<th colspan="2">table-layout: fixed;<br>
+칸 크기들이 컨텐츠의 양과 무관하게 동일한 너비로 지정. 
+</th>
+</tr>
+
+<tr>
+<th>name</th>
+<th>birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+</table>
+
+<h2 class="clear">border-spacing:n n; 칸 사이 간격</h2>
+<table class="tab03">
+<tr>
+<th colspan="2">border-spacing:0;<br>
+칸 사이 간격을 없앰 (이중 테두리 남음)</th>
+</tr>
+
+<tr>
+<th>name</th>
+<th>birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+</table>
+
+<table class="tab04">
+
+<tr>
+<th colspan="2">border-spacing:10px;</th>
+</tr>
+
+<tr>
+<th>name</th>
+<th>birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+</table>
+
+
+<table class="tab05">
+
+
+<tr>
+<th colspan="2">border-spacing:10px 5px;</th>
+</tr>
+
+<tr>
+<th>name</th>
+<th>birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+</table>
+
+<h2>border-collapse:</h2>
+<table class="tab06">
+
+
+<tr>
+<th colspan="2">border-collapse : collapse;<br>
+칸 사이 간격을 없애면서 이중 테두리도 제거됨(기본값은 separate)
+</th>
+</tr>
+
+<tr>
+<th>name</th>
+<th>birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+</table>
+
+</body>
+</html>

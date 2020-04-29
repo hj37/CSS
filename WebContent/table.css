@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+
+body {background-color: #000;
+color: #fff;}
+
+h2{border-bottom: 4px double;
+color:#037;}
+.clear {clear: both; /* float의 영향을 해제*/} 
+
+table {background-color: #3af; 
+margin:3em 2em;
+color: #fff;
+width:500px;}
+
+th, td {border: 1px solid;}
+
+	/*table-layout */
+
+.tab01, .tab02 {float:left;}
+
+.tab02{table-layout: fixed;}
+
+	/* */
+	
+.tab03 {border-spacing:0;}
+.tab04 {border-spacing:10px;}
+.tab05 {border-spacing:10px 5px;}
+
+
+/* border- */
+
+.tab06 {border-collapse: collapse;}

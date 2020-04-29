@@ -13,15 +13,15 @@ background-color: #299;
 height:50px; clear: both;} /* float의 영향을 끊어줌(제자리로) */
 
 header>nav>ul {border: 1px solid #f90;
-float: right;
-list-style: none;
+float: right;	/*메뉴바 전체를 우측으로 */
+list-style: none;	/*목록 앞의 모양 제거 */
 margin-right: 30px;}
 header>nav li {background-color:#4f0;
-float: left;
+float: left;	/* 가로형 메뉴바로 .. */
 margin-left:20px;
 width:150px; height: 30px;
-text-align:center;
-line-height:30px;}
+text-align:center; /* 수평정렬 가운데로 (한줄만 가능) */ 
+line-height:30px; /* 수직정렬 가운데로(한줄만 가능) height값과 line-height(행간)값을 일치시킴*/}
 
 header>nav li:hover{background-color:#000;}
 

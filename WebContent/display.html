@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="display.css" rel="stylesheet">
+
+<title>Insert title here</title>
+</head>
+<body>
+<h1>display</h1>
+
+<nav>
+<ul>
+<li><a href="#sec01">section01</a></li>
+<li><a href="#sec02">section02</a></li>
+<li class="mn3"><a href="#sec03">section03</a>
+<ul class="sub">
+<li><a href="#sub3-01">sub-01</a></li>
+<li><a href="#sub3-02">sub-02</a></li>
+</ul>
+</li>
+<li><a href="#sec04">section04</a></li>
+
+</ul>
+</nav>
+
+
+
+<a href="box.html" target="_blank"> inline요소, block요소</a>
+
+<ul>
+<li>display:inline; 요소를 inline성격으로 바꿔줌</li>
+<li>display:block; 요소를 block성격으로 바꿔줌</li>
+<li>display:inline-block; 요소를 inline과 block을 섞은 성격으로 바꿔줌 </li>
+<li class="none">display:none; 요소를 사라지게 함</li>
+
+</ul>
+
+<section id="sec01">
+	<h2>display:inline; <span>한 줄에 나란히 오면서 
+	크기 ,상하 margin 불가 </span></h2>
+	
+	<p>p태그를 display:inline;으로</p>
+	<aside>aside태그를 display:inline;으로</aside>
+	<div>div태그를 display:inline;으로</div>
+	<h3>h3태그를 display:inline;으로</h3>
+	
+</section>
+
+<section id="sec02">
+<h2>display:block; <span>한 줄에 나란히 올 수 없고
+ 	크기,margin은 모두 가능.
+</span></h2>
+
+
+	<a>a태그를 display:block;으로</a>
+	<b>b태그를 display:block;으로</b>
+	<i>i태그를 display:block;으로</i>
+	<span>span태그를 display:block;으로</span>
+	<label>label태그를 display:block;으로</label>
+</section>
+
+
+<section id="sec03">
+<h2>display:inline-block
+<span>한 줄에 나란히 오면서 크기,margin 모두 가능.</span>
+</h2>
+
+
+	<a class="in">a태그를 display:block;으로</a>
+	<b class="in">b태그를 display:block;으로</b>
+	<i class="in">i태그를 display:block;으로</i>
+	<span class="in">span태그를 display:inline-block;으로</span>
+	<label class="in">label태그를 display:inline-block;으로</label>
+	
+	<p class="bl">p태그를 display:inline-block;으로</p>
+	<aside class="bl">aside태그를 display:inline-block;으로</aside>
+	<div class="bl">div태그를 display:inline-block;으로</div>
+	<h3 class="bl">h3태그를 display:inline-block;으로</h3>
+</section>
+
+<section id="sec04">
+<h2>display:none;</h2>
+
+<table>
+<tr>
+ <th>no.</th>
+ <th colspan="2">display</th>
+ <th></th> 
+</tr>
+<tr>
+ <td>01</td>
+ <td>inline</td>
+ <td>한 줄에 나란히 오면서 크기, 상하 margin 불가</th>
+</td>
+<tr class="n">
+ <td>02</td>
+ <td>block</td>
+ <td>한 줄에 나란히 올 수 없고 크기, margin은 모두 가능</th>
+</tr>
+<tr>
+ <td>03</td>
+ <td>none</td>
+ <td>요소를 사라지게 함</td>
+</tr>
+</table>
+
+</section>
+
+
+<section id="sec05">
+<h2>visibility:hidden;</h2>
+
+<p id="p1">
+visibility:hidden;은 요소가 차지한 공간을 남기고 사라짐 <br>
+<img alt="email" src="img/email.png"><br>email.png
+</p>
+
+<p id="p2">
+display:none;은 요소가 차지한 공간까지 사라짐 <br>
+<img alt="email" src="img/email.png"><br>email.png
+</p>
+</section>
+
+</body>
+</html>
