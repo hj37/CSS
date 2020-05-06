@@ -9,7 +9,7 @@
 
 <body>
 <h1>table</h1>
-<table>
+<table id="left">
 <tr>
 <th>name</th>
 <th>birthday</th>
@@ -47,7 +47,47 @@
 
 </table>
 
-<h2>table-layout:auto/fixed;</h2>
+<table id="right">
+<tr>
+<th class="bot rig">name</th>
+<th class="top lef">birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td class="cen">kim gil</td>
+<td class="rig">2002.08.17</td>
+</tr>
+
+<tr>
+<td class="top">lee gil</td>
+<td class="bot">2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+</table>
+
+
+
+<h2 class="clear">table-layout:auto/fixed;</h2>
 <table class="tab01">
 <tr>
 <th colspan="2">table-layout: auto;</th>
@@ -94,14 +134,14 @@
 
 <table class="tab02">
 <tr>
-<th colspan="2">table-layout: fixed;<br>
+<th colspan="2">table-layout:auto/fixed;<br>
 칸 크기들이 컨텐츠의 양과 무관하게 동일한 너비로 지정. 
 </th>
 </tr>
 
 <tr>
 <th>name</th>
-<th>birthday</th>
+<th >birthday</th>
 </tr>
 
 <tr>
@@ -110,8 +150,8 @@
 </tr>
 
 <tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
+<td class="cen">kim gil</td>
+<td class="rig">2002.08.17</td>
 </tr>
 
 <tr>
@@ -310,7 +350,235 @@
 <td>hon dal</td>
 <td>1910.08.17</td>
 </tr>
+
+
 </table>
+
+
+
+
+<h2>stripe table</h2>
+<table id="stripe-even">
+<caption>tr:nth-of-type(2n) 짝수번째 줄</caption>
+<!--caption은 표의 제목을 나타냄  -->
+<tr>
+<th>name</th>
+<th>birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+</table>
+
+
+<h2>stripe-odd</h2>
+<table id="stripe-odd">
+<caption>tr:nth-of-type(2n-1) 홀수번째 줄</caption>
+<tr>
+<th>name</th>
+<th>birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+</table>
+
+<h2 class="clear">마우스오버시 한 줄 전체의 변화 </h2>
+<table id="hover">
+<caption></caption>
+<tr>
+<th>name</th>
+<th>birthday</th>
+</tr>
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+
+
+<tr>
+<td>hong gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>kim gil</td>
+<td>2002.08.17</td>
+</tr>
+
+<tr>
+<td>lee gil</td>
+<td>2010.08.17</td>
+</tr>
+
+<tr>
+<td>gil do</td>
+<td>1990.08.17</td>
+</tr>
+
+<tr>
+<td>han na</td>
+<td>2000.08.17</td>
+</tr>
+
+<tr>
+<td>hon dal</td>
+<td>1910.08.17</td>
+</tr>
+
+
+
+</table>
+
+
+
 
 </body>
 </html>

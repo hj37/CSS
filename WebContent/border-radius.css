@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.brdr-ra01, .brdr-ra02, .brdr-ra03,.brdr-ra04,.brdr-ra05,.brdr-ra06{background-color:#340;
+padding: 1.5em;
+color: #fff;
+}
+
+/*양사방 모서리가 동일하게 적용됨*/
+.brdr-ra01{border-radius: 0.3em;}
+
+.box1, .box2 {background-color: #dc9;
+width: 300px; height: 300px;
+display: inline-block;
+border-radius: 50%;	/* 동그랗게 만들어준다. */
+overflow: hidden;	/*영역밖의 내용 숨김 */
+text-align:center;}
+
+
+.box1 {width: 300px; height: 300px;}
+.box2 {width: 300px; height: 250px;}
+.box1>img ,.box2>img {width: 300px;}
+
+.box1:hover {border-radius: 0;
+transition: 1.8s;}	/* 1.8초 동안 변화함 */ 
+
+.box2:hover {border-radius: 50%;
+width: 250px; height: 300px;
+transition: 1.8s;} 
+/* 1.8초동안 모양 바꿔주는거 
+
+
+
+
+/*좌측상단과 우측하단 우측상단과 좌측하단의 순서로 적용됨*/
+
+.pt01, .pt02, .pt03{
+	width: 400px;
+}
+
+.pt01 {border-radius: 10px 50px;}
+.pt02 {border-radius: 50px 10px;}
+.pt03 {border-radius: 50% 0;}
+
+b {background-color: #dc9;
+padding: 5px;
+color: #530;
+/* visibility: hidden; */
+display:none;}
+
+
+img {vertical-align: middle;
+/*인라인요소끼리의 수직정렬을 지정 */}
+
+img:hover+b {display:inline;
+/*+는 인접형제 선택자,
+~는 뒤의 모든형제 선택자 */}
+
+
+/* 좌측상단 우측상단 우측하단 좌측하단의 순서 */
+.brdr-ra02{
+	border-radius: 2em 0 0 0;} /* 시계방향으로 둥글게 표현함 */
+.brdr-ra03{
+	border-radius: 0 2em 0 0;}
+
+.brdr-ra04{
+	border-radius: 0 0 2em 0;
+}
+
+.brdr-ra05{
+	border-radius: 0 0 0 2em;
+}
+
+
+.brdr-ra06{
+	border-radius: 2em 2em 0 0;	/* 왼쪽 오른쪽 */
+}
