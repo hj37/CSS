@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>transition</title>
+<link href="transition.css" rel="stylesheet">
+</head>
+<body>
+<h1>transition</h1>
+
+<ul>
+ <li>transition: ; 함축형 표현(속성값만 나열)</li>
+ <li>transition의 세부 속성들 
+ 	<ol>
+ 		<li class="t-pro">transition-property: ; 적용할 속성</li>
+  		<li>transition-duration: ; 전체 시간. 필수 (단위는 s나 ms)</li>
+  		<li class="t-pro t-de">transition-delay : ; 지연 시간</li>
+  		<li>transition-timing-function : ; 가속감속 등의 효과 
+  		<ol>
+  		<li>ease 기본값</li>
+  		<li>ease-in 시작을 느리게 </li>
+  		<li>ease-out 마지막을 느리게 </li>
+  		<li>ease-in-out 시작과 마지막을 느리게</li>
+  		<li>linear 등속</li>
+  		<li>cubic-bezier(n,n,n,n) 베지에곡선을 이용 만들기</li>
+  		</ol>
+  	  </li>
+ 	</ol>
+ </li>
+</ul>
+
+<section>
+<h3>transition-timing-function: ; 가속감속 등</h3>
+
+<div class="tf01">ease</div>
+<div class="tf02">ease-in</div>
+<div class="tf03">ease-out</div>
+<div class="tf04">ease-in-out</div>
+<div class="tf05">linear</div>
+<div class="tf06">cube-bezier(n,n,n,n)</div>
+<div class="tf07">cube-bezier(n,n,n,n)</div>
+
+
+</section>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="test.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+
+<nav>
+ <ul>
+  <li><a href="#" class="mn01">menu01</a></li>
+  <li><a href="#" class="mn02">menu02</a></li>
+  <li><a href="#" class="mn03">menu03</a></li> 
+ </ul>
+</nav>
+
+<input type="search">
+
+<h2>링크 선택자</h2>
+<p>
+ <a href="#" class="link">링크 상태</a>에 따른 
+ <a href="#" class="link2">선택자</a> <br><br>
+ a:link, a:visited - 초기링크 상태와 방문한링크 상태 <br>
+ a:hover, a:active - 마우스오버 상태와 활성화한링크 상태
+</p>
+
+<h2>목록스타일</h2>
+ list-style
+ <h3>목록 앞의 스타일을 이미지로 바꾸기-1 (배경활용)</h3>
+ <ul class="ls">
+  <li>list-style</li>
+  <li>list-style</li>
+ </ul>
+ <h3>목록 앞의 스타일을 이미지로 바꾸기-2 (목록속성 활용)</h3>
+ <ul class="ls-img">
+  <li>list-style</li>
+  <li>list-style</li>
+ </ul>
+ <h2>부유시켜 배치 float &amp; clear</h2>
+ <p>float으로 나란히 배치할 수 없는 요소들을 나란히 배치하고<br>
+  그 다음에 오는 요소는 원래의 위치로 돌려주려면 float의 영향을 해제하는
+  clear를 적용한다.<br><br>
+  만약 자식들이 모두 float되면 부모는 형태를 잃어버리고 자식들을
+  감싸지 않는다.<br>
+  이 때는 부모에게 직접 높이값을 주거나 overflow:hidden으로
+  해결한다.
+ </p>
+ 
+<ul id="box">
+ <li class="c01">content01 <br>
+  float: left;
+  width: 50%; height: 300px;
+  margin-bottom: 50px; 
+ </li>
+ <li class="c02">content02 <br>
+  float: left;
+  width: 50%; height: 300px;
+  margin-bottom: 50px;
+ </li>
+ <li class="c03">content03</li>
+ <li class="c04">content04</li>
+ <li class="c05">content05</li>
+</ul> 
+ 
+<h2>요소의 성격 display</h2>
+<p>inline/block/inline-block 값으로<br>
+한줄에 나란히 오는 /나란히 올 수 없는/나란히 오면서 크기 적용도 가능한
+요소로 바꿀 수 있다.
+</p>
+<ul id="box2"> 
+ <li class="ds01">content01</li>
+ <li class="ds02">content02<br>
+  content02
+ </li>
+ <li class="ds03">content03<br>
+  content03<br>content03
+ </li>
+</ul>    
+
+<h2>수직정렬 vertical-align</h2>
+<p>
+ 1.inline요소들끼리의 , 한 줄에 나란히 있는 요소끼리의
+     위아래 위치를 조절한다. <br>
+     
+ 2. 표에서 칸 안의 내용을 위아래로 조절할 때도 쓰임.
+ </p>
+<ul id="box2" class="vt"> 
+ <li class="ds01">content01</li>
+ <li class="ds02">content02<br>
+  content02
+ </li>
+ <li class="ds03">content03<br>
+  content03<br>content03
+ </li>
+</ul>   
+ 
+ </div>
+</body>
+</html>
+
+
+

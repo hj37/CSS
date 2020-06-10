@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* html{height: 100%} */
+* {margin: 0; padding:0;
+	font-family: sans-serif;} 
+
+
+body {background-color: #ff0;
+color: #6294df;
+/* color: rgb(98,148,223);} */
+background-image:url("img/building.jpg");
+background-repeat: no-repeat;
+background-position:0% 0%,0% 100%;
+background-size: 100% 50%;
+background-attachment: fixed;
+height : 100%;
+padding-top : 5px;
+}
+
+/* .blank {height: 900px;} */
+
+nav {background-color : #000;
+height: 50px; /*= overflow: hidden */
+padding-top:15px;
+}
+
+
+nav ul{list-style: none;
+/* border: 1px solid;  */
+overflow:hidden;
+/* float:right; */
+/* float: right; */
+margin-left: 100px;
+/* margin-top:5px;} */}
+
+nav li {background-color: #444;
+float:left;
+padding:5px;
+border-right: 2px solid;}
+
+nav li:nth-last-of-type(1){
+	border-right: none;
+}
+
+nav a {text-decoration:none;}
+nav a:link, nav a:visited {color: #6294f;}
+nav a:hover, nav a:active {color: #000;}
+
+.sticky {position: sticky;
+		top:0;
+		}
+
+#text{background-color: rgba(0,0,0,0.7);
+padding: 3em 2em;
+overflow: hidden;
+clear: both;}
+
+
+#text>li{
+list-style:upper-roman;
+margin-top: 1.5em;
+margin-bottom: 2em;
+}
+
+#text>li>span{
+background-color: #000;
+padding: 0.5em;
+border-radius: 10px ;
+border-bottom : 10px solid #6294df;
+font-weight: bold;
+color: #fff;
+}
+
+#text ul {
+	/* border: 1px solid; */
+margin-top: 2em;
+line-height: 1.8;
+/* list-style: url("img/aniyellow.gif");} 
+방법1.목록 속성으로 목록앞의 모양을 이미지로 지정 
+*/
+list-style: none; 
+/*방법2. 목록앞의 기본 모양을 없앰 */}
+
+#text ul>li {/*border: 1px solid; */
+background-image:url("img/aniyellow.gif");
+/* 배경 이미지를 목록앞의 모양을 이미지처럼 지정 */
+background-repeat: no-repeat;	/* 하나만 나오게 */
+background-position:left center;	/* 배경 이미지 위치 조절 */
+padding-left:18px;/* 글자의 위치를 겹치지 않게 우측으로 옮김 */}
+
+
+
+section{ border: 4px double;
+margin: 3em 1em;
+padding: 1.5em;
+overflow: hidden;
+color : #3af;
+}
+
+h2 {background-color:#000;}
+
+/* background-repeat */
+
+
+#sec01>p, #sec02>p{border: 1px solid;
+height:400px; width: 48%;
+float: left;
+margin-right: 1%;
+background-image: url("img/butterfly.jpg");
+background-size: 150px 80px;
+text-shadow: 3px 3px 6px #fff;
+text-align: right;
+color: #000;}
+ 
+.re01{background-repeat: repeat;}
+.re02{background-repeat: no-repeat;} 
+.re03{background-repeat: repeat-x;}
+.re04{background-repeat: repeat-y;}
+
+.po01 {background-position: right center;} 
+
+.po02 {background-position: center center;}
+
+.po03 {background-position: 50% 50%;}
+
+.po04:hover {background-position: 75px 40px;
+transition:2s;}
+
+
+#sec03>p {border: 1px solid;
+float : left;
+width : 30%; height: 500px; 
+color : #fff;
+background-image: url("img/minimalism.jpg");
+}
+
+p.bs01 {background-size: contain;}
+p.bs02 {margin: 1em 1.2%;
+background-size: cover;}
+p.bs03 {background-size: 100% 100%;}
+
+
+/* background-attachment */
+
+
+#sec04>p {border: 1px solid;
+float : left;
+width : 30%; height: 400px; 
+color : #fff;
+margin:1em 1%;
+padding: 0.5%;
+line-height: 1.8;
+font-size:1.5em;
+background-image: url("img/green.jpg");
+overflow:auto;);
+}
+
+.ba01 {background-attachment: scroll;}
+.ba02 {background-attachment: fixed;}
+.ba03 {background-attachment: local;}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+h1 {background-color: #aef;
+width: 200px;
+height: 50px;
+text-align: center;
+color: #036;	
+opacity: 0.5;
+}
+
+h1:hover{
+background-color: #afe;
+width: 400px;
+height: 80px;
+font-size: 50px;
+transition: 2.5s;
+color: #063;
+opacity: 1;
+}
+
+.t-pro {font-size: 16px;
+background-color: #eee;
+padding-left: 20px;
+}
+
+.t-pro:hover{font-size: 12px;
+background-color: #fa8;
+padding-left: 60px;	
+
+transition-property: padding-left;
+transition-duration: 3s; 
+}
+
+.t-de {transition-delay: 1s;}
+
+
+/* transition-timing-function */
+
+section {border: 4px double #ea0;
+margin:5em 1em;
+padding: 1em;}
+
+h3 {color: #ea0;}
+
+section>div {border-right: 15px solid #ea0;
+background-color: #530;
+width: 150px;
+margin-bottom: 20px;
+padding: 10px 5px;
+text-align: right;
+color: #fff;
+position: relative;
+left: 0;
+}
+
+section:hover>div{
+	left: 800px;
+	transition-duration: 3s;
+}
+
+.tf01{transition-timing-function :ease; }
+.tf02{transition-timing-function :ease-in; }
+.tf03 {transition-timing-function:ease-out;}
+.tf04 {transition-timing-function:ease-in-out;}
+.tf05 {transition-timing-function:linear;}
+<!-- 느리게 시작하고 느리게 끝나고 -->
+.tf06 {transition-timing-function:
+cubic-bezier(.17,.67,.83,.67);}
+
+.tf07 {transition-timing-function:
+cubic-bezier(.39,1.94,.37,-1.06);}
+

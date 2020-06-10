@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link href="bgimg.css" rel="stylesheet">
+</head>
+<body>
+	<h1>background: ; 배경</h1>
+	<nav class="sticky">
+	<ul>
+		<li><a href="#sec01">배경 반복</a></li>
+		<li><a href="#sec02">배경 위치</a></li>
+		<li><a href="#sec03">배경 크기</a></li>
+		<li><a href="#sec04">배경 스크롤</a></li>
+	</ul>
+	</nav>
+	
+	
+	
+	
+	
+	<ol id="text">
+		<li><span>background-color : ; 배경 색상</span>
+			<ul>
+				<li>색상명</li>
+				<li>rgb(n,n,n) - 빛의 삼원색 red,green,blue(n은 0~ 255사이의 값)</li>
+				<li>hsl(n,n,n) - 색상 명도 채도의 순서</li>
+				<li>#nnnnnn - 16진수로 표현한 방식(3자리 가능)</li>
+			</ul>
+		</li>
+		<li><span>background-image:url("이미지경로"); 배경 이미지</span>
+			<ul>
+				<li>background-repeat:repeat/repeat-x/repeat-y/no-repeat; 반복 제어 </li>
+				<li>background-size: ; 크기 지정</li>
+				<li>background-position: ; 위치 지정</li>
+				<li>background-attachment: ; 스크롤 여부 지정</li>
+			</ul>
+			* [ 배경 이미지 2개 적용하기 ]<br>
+			background-image:url("이미지1경로"), url("이미지2경로"); <br>
+			background-size: 1속성값, 2속성값 : <br>
+			...
+		</li>
+	</ol>
+	
+<!-- 	<p class="blank"></p> -->
+<section id="sec01">
+	<h2>background-repeat:repeat/repeat-x/repeat/-y/no-repeat </h2>
+	
+	<p class="re01">
+	background-repeat:repeat <br> 배경 이미지 양사방 반복(기본값) </p>
+	
+	<p class="re02">
+	background-repeat:no-repeat <br> 배경 이미지 반복 안 함 </p>
+	
+	<p class="re03">
+	background-repeat:repeat-x <br> 배경 이미지 가로로만 반복 </p>
+	
+	<p class="re04">
+	background-repeat:repeat-y <br> 배경 이미지 세로로만 반복 </p>
+</section>
+
+<section id="sec02">
+<h2>background-position:수평 수직;</h2>
+<pre>
+수평과 수직 방향값을 조합하여 지정하거나(1/c/r, t/c/b) 
+여러 단위를 활용하여 직접 값을 지정할 수 있다. (npx/n%/nem/...)
+</pre>
+<p class="po01 re02">
+background-position:right center; <br></p>
+<p class="po02 re02">
+background-position:center center; <br></p>
+<p class="po03 re02">
+background-position:50% 50%; <br></p>
+<p class="po04 re02">
+background-position:75px 40px; <br></p>
+</section>
+
+<section id="sec03">
+<h2>background-size:contain/cover/n n/; </h2>
+ <pre>
+  contain이나  cover로 정해진 값을 쓰거나 
+   여러 단위를 활용하여 직접 값을 지정할 수 있다.
+  (가로 세로 | npx npx/n% n%/nem nem/...)
+  
+  * cover = 이미지 하나로 전체를 다 덮기 
+           (이미지가 잘려나갈 수 있음)
+    contain = 영역에 이미지 하나를 온전히 다 보이게 
+           (반복값에 따라 이미지가 반복되거나 영역에 빈공간이 생길 수 있음)
+ </pre>
+
+
+
+
+<p class="bs01">background-size:contain; </p>
+<p class="bs02">background-size:conver; </p>
+<p class="bs03">background-size:100% 100%;</p>
+</section>
+
+
+<section id="sec04">
+<h2>background-size:contain/cover/n n/; </h2>
+ <pre>
+ scroll(기본값)
+ 브라우저의 스크롤을 따라서 배경이미지는 움직임 
+ 자신 영역의 스크롤을 따라서 배경이미지는 고정 
+ fixed - 
+브라우저의 스크롤을 따라서 배경이미지는 고정 
+자신 영역의 스크롤을 따라서 배경이미지는 고정 
+ local - 
+브라우저의 스크롤을 따라서 배경이미지는 움직임
+자신 영역의 스크롤을 따라서 배경이미지는 움직임 
+ </pre>
+<p class="ba01">background-attachment: scroll; 
+기본값. <br><br>
+브라우저의 스크롤을 따라서 배경이미지는 움직임<br><br>
+자신 영역의 스크롤을 따라서 배경이미지는 고정<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+background-attachment:scroll;<br>
+</p>
+<p class="ba02">background-attachment: fixed; 
+기본값. <br><br>
+브라우저의 스크롤을 따라서 배경이미지는 고정<br><br>
+자신 영역의 스크롤을 따라서 배경이미지는 고정<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+background-attachment:fixed;<br>
+ </p>
+<p class="ba03">background-attachment: local; 
+기본값. <br><br>
+브라우저의 스크롤을 따라서 배경이미지는 움직임 <br><br>
+자신 영역의 스크롤을 따라서 배경이미지는 움직임<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+background-attachment:local;<br>
+</p>
+</section>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+#container {border: 1px solid; 
+width: 900px; 
+margin: auto;}	<!-- 왼쪽과 오른쪽만 auto로 줘도 됨 ,요것도 시험에 나올수 있음 -->
+
+<!-- 가로너비가 제한되어있음 
+
+nav ul {list-style: none;}
+
+nav li {float: left;
+ margin-right: 0.5em;}
+ 
+nav a {text-decoration: none;}
+
+nav .mn01:link, nav .mn01:visited{
+	color: red; }
+
+nav .mn02:link, nav .mn02:visited{
+	color: orange; }
+	
+nav .mn03:link, nav .mn03:visited{
+	color: yellow;
+	text-decoration: underline;	
+	 }
+.mn03:hover{
+	text-decoration: underline;	
+}
+
+
+	<!-- 속성 이름 알아야함 레이아웃 잡는거 float과 clear로 하면 됨 나란히 배치하는 걸 꼭 
+	알아야함 --> 
+	
+	
+	
+	
+
+<!--시험에 나오는거 --> 
+
+input {float: right;}
+
+h2 {clear: both;
+margin-top: 50px;}
+
+
+.link:link, .link:visited {
+ text-decoration: none;	
+ color: #f33; }
+ 
+.link:hover, .link:active {
+ color: #0a0;}
+ 
+.link2:link, .link2:visited {
+	color: #0f0;
+	text-decoration: none; } 
+ 
+.link2:hover, .link2:active {
+	color: #f00;	}
+ 
+  /* 목록스타일  */
+ .ls {list-style: none;
+  /* 목록 앞의 기본 스타일을 제거 */ }
+ 
+ .ls li {/* border: 1px solid;  */
+ /* 목록의 li에게 각각 배경으로 처리 */
+ background-image: url("img/aniyellow.gif");
+ background-repeat: no-repeat;
+ background-position: left center; 
+ padding-left: 16px;} 
+ 
+ 
+ .ls-img { /* 목록속성 활용 */
+ list-style-image: url("img/aniyellow.gif");}
+ 
+ 
+ ul#box {list-style: none;}
+  
+  #box>li {border: 1px solid red;
+   box-sizing: border-box;}
+  
+  .c01, .c02 {float: left;
+  width: 50%; height: 300px;
+  margin-bottom: 50px;}
+  
+  .c03 {clear: both;
+  height: 100px;
+  margin-bottom: 50px;}
+  
+  .c04, .c05 {float: left;
+  width: 50%; height: 300px;}
+ 
+ 
+ 
+ #box2>li {border: 1px solid blue; 
+  width: 30%; 
+  display: inline-block;} 
+ 
+ .vt>li {vertical-align: top; } 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

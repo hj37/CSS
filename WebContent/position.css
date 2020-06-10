@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+
+.st {position: static;
+ top: 100px; }
+
+ section { border: 3px solid #ccc;
+  margin: 5em 1em;
+  padding: 1em; }
+ 
+ section>h2 {
+ background-color: #ccc;
+ padding: 0.5em; } 
+ 
+ 
+ 
+ /* position:relative; 현재 위치  기준
+  */
+ 
+ .re01 {background-color: #cfc;
+ position: relative;
+ top:100px; }
+ 
+ .re02 {background-color: #fcc;
+ position: relative;
+ bottom: 100px;  }
+ 
+ .re03 {background-color: #acf;
+ position: relative;
+  left: 50em;}
+ 
+ .re04 {background-color: #00f;
+  position: relative;
+  bottom: 3em;
+  left: 20em;
+  color: #fff; }
+ 
+ .re05 {position: relative;
+  right: 200px;
+  bottom: 300px;
+ }
+ 
+/*  #sec01:hover>* {
+ position: static; } */
+ 
+ #sec01 {overflow: hidden;
+  /* 영역밖의 컨텐츠 : 숨김 */}
+ 
+ .reh2 {position: relative;
+  top: -100px;   
+  opacity: 0;/* 투명도를 완전 투명으로 */
+  z-index: 20; /* 겹치는 요소끼리의
+  우선순위. 클수록 위로 올라옴 */}
+ 
+ #sec01:hover>.reh2 {
+top: 0px;	 
+opacity: 1;/* 투명도를 완전 불투명으로 */
+transition:1.5s;
+}
+ 
+ 
+ 
+ /* position:absolute;
+  부모 요소의 위치를 기준 */
+ 
+ #sec02>div {border: 4px dashed #358;
+ width: 200px; height: 50px;	}
+ 
+ 
+ #sec02 {position: relative;}
+  
+.ab01 {position: absolute;
+	top: 0;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

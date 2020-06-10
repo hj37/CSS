@@ -1,584 +1,384 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<link href="table.css" rel="stylesheet">
-
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>table</title>
+<link href="table.css" rel="stylesheet"> 
 </head>
-
 <body>
 <h1>table</h1>
-<table id="left">
-<tr>
-<th>name</th>
-<th>birthday</th>
-</tr>
+ 
+ <table id="left">
+  <tr>
+   <th>name</th>   <th>birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
 
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
+ <table id="right">
+  <tr>
+   <th class="bot rig">name</th>   <th class="top lef">birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td class="cen">kim gil</td>   <td class="rig">2002.08.17</td>
+  </tr>
+  <tr>
+   <td class="top">lee gil</td>   <td class="bot">2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
 
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-</table>
-
-<table id="right">
-<tr>
-<th class="bot rig">name</th>
-<th class="top lef">birthday</th>
-</tr>
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td class="cen">kim gil</td>
-<td class="rig">2002.08.17</td>
-</tr>
-
-<tr>
-<td class="top">lee gil</td>
-<td class="bot">2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-</table>
-
-
-
-<h2 class="clear">table-layout:auto/fixed;</h2>
-<table class="tab01">
-<tr>
-<th colspan="2">table-layout: auto;</th>
-</tr>
-<tr>
-<th>name</th>
-<th>birthday</th>
-</tr>
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-</table>
+ <h2 class="clear">table-layout:auto/fixed; </h2>
+ <table class="tab01">
+  <tr>
+   <th colspan="2">table-layout: auto;</th>
+  </tr>
+  <tr>
+   <th>name</th>   <th>birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010 . 08 . 17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
 
 
+ <table class="tab02">
+  <tr>
+   <th colspan="2">table-layout: fixed;<br>
+    Ïπ∏ ÌÅ¨Í∏∞Îì§Ïù¥ Ïª®ÌÖêÏ∏†Ïùò ÏñëÍ≥º Î¨¥Í¥ÄÌïòÍ≤å ÎèôÏùºÌïú ÎÑàÎπÑÎ°ú ÏßÄÏ†ï Îê®.
+   </th>
+  </tr>
+  <tr>
+   <th>name</th>   <th>birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010 . 08 . 17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
 
 
-<table class="tab02">
-<tr>
-<th colspan="2">table-layout:auto/fixed;<br>
-ƒ≠ ≈©±‚µÈ¿Ã ƒ¡≈Ÿ√˜¿« æÁ∞˙ π´∞¸«œ∞‘ µø¿œ«— ≥ ∫Ò∑Œ ¡ˆ¡§. 
-</th>
-</tr>
-
-<tr>
-<th>name</th>
-<th >birthday</th>
-</tr>
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td class="cen">kim gil</td>
-<td class="rig">2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-</table>
-
-<h2 class="clear">border-spacing:n n; ƒ≠ ªÁ¿Ã ∞£∞›</h2>
-<table class="tab03">
-<tr>
-<th colspan="2">border-spacing:0;<br>
-ƒ≠ ªÁ¿Ã ∞£∞›¿ª æ¯æ⁄ (¿Ã¡ﬂ ≈◊µŒ∏Æ ≥≤¿Ω)</th>
-</tr>
-
-<tr>
-<th>name</th>
-<th>birthday</th>
-</tr>
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-</table>
-
-<table class="tab04">
-
-<tr>
-<th colspan="2">border-spacing:10px;</th>
-</tr>
-
-<tr>
-<th>name</th>
-<th>birthday</th>
-</tr>
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-</table>
-
-
+ <h2 class="clear">border-spacing:n n; Ïπ∏ ÏÇ¨Ïù¥ Í∞ÑÍ≤©</h2>
+ <table class="tab03">
+  <tr>
+   <th colspan="2">border-spacing:0;<br>
+    Ïπ∏ ÏÇ¨Ïù¥ Í∞ÑÍ≤©ÏùÑ ÏóÜÏï∞ (Ïù¥Ï§ë ÌÖåÎëêÎ¶¨ ÎÇ®Ïùå)</th>
+  </tr>
+  <tr>
+   <th>name</th>   <th>birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
+ <table class="tab04">
+  <tr>
+   <th colspan="2">border-spacing:10px;</th>
+  </tr>
+  <tr>
+   <th>name</th>   <th>birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
 <table class="tab05">
+  <tr>
+   <th colspan="2">border-spacing:10px 5px;</th>
+  </tr>
+  <tr>
+   <th>name</th>   <th>birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
 
-
-<tr>
-<th colspan="2">border-spacing:10px 5px;</th>
-</tr>
-
-<tr>
-<th>name</th>
-<th>birthday</th>
-</tr>
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-</table>
-
-<h2>border-collapse:</h2>
+<h2>border-collapse: separate/collapse; </h2>
 <table class="tab06">
+  <tr>
+   <th colspan="2">border-collapse: collapse;<br>
+    Ïπ∏ ÏÇ¨Ïù¥ Í∞ÑÍ≤©ÏùÑ ÏóÜÏï†Î©¥ÏÑú Ïù¥Ï§ë ÌÖåÎëêÎ¶¨ÎèÑ Ï†úÍ±∞Îê®(Í∏∞Î≥∏Í∞íÏùÄ separate)
+   </th>
+  </tr>
+  <tr>
+   <th>name</th>   <th>birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
 
 
-<tr>
-<th colspan="2">border-collapse : collapse;<br>
-ƒ≠ ªÁ¿Ã ∞£∞›¿ª æ¯æ÷∏Èº≠ ¿Ã¡ﬂ ≈◊µŒ∏Æµµ ¡¶∞≈µ (±‚∫ª∞™¿∫ separate)
-</th>
-</tr>
+<h2>stripe table </h2>
 
-<tr>
-<th>name</th>
-<th>birthday</th>
-</tr>
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-
-</table>
-
-
-
-
-<h2>stripe table</h2>
 <table id="stripe-even">
-<caption>tr:nth-of-type(2n) ¬¶ºˆπ¯¬∞ ¡Ÿ</caption>
-<!--caption¿∫ «•¿« ¡¶∏Ò¿ª ≥™≈∏≥ø  -->
-<tr>
-<th>name</th>
-<th>birthday</th>
-</tr>
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-</table>
+ <caption>tr:nth-of-type(2n) ÏßùÏàòÎ≤àÏß∏ Ï§Ñ</caption> 
+  <!-- captionÏùÄ ÌëúÏùò Ï†úÎ™©ÏùÑ ÎÇòÌÉÄÎÉÑ --> 
+  <tr>
+   <th>name</th>   <th>birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
 
 
-<h2>stripe-odd</h2>
 <table id="stripe-odd">
-<caption>tr:nth-of-type(2n-1) »¶ºˆπ¯¬∞ ¡Ÿ</caption>
-<tr>
-<th>name</th>
-<th>birthday</th>
-</tr>
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-</table>
-
-<h2 class="clear">∏∂øÏΩ∫ø¿πˆΩ√ «— ¡Ÿ ¿¸√º¿« ∫Ø»≠ </h2>
-<table id="hover">
-<caption></caption>
-<tr>
-<th>name</th>
-<th>birthday</th>
-</tr>
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
+  <caption>tr:nth-of-type(2n-1) ÌôÄÏàòÎ≤àÏß∏ Ï§Ñ</caption>
+  <tr>
+   <th>name</th>   <th>birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
 
 
-
-<tr>
-<td>hong gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>kim gil</td>
-<td>2002.08.17</td>
-</tr>
-
-<tr>
-<td>lee gil</td>
-<td>2010.08.17</td>
-</tr>
-
-<tr>
-<td>gil do</td>
-<td>1990.08.17</td>
-</tr>
-
-<tr>
-<td>han na</td>
-<td>2000.08.17</td>
-</tr>
-
-<tr>
-<td>hon dal</td>
-<td>1910.08.17</td>
-</tr>
-
-
-
-</table>
-
-
+ <h2 class="clear">ÎßàÏö∞Ïä§Ïò§Î≤ÑÏãú Ìïú Ï§Ñ Ï†ÑÏ≤¥Ïùò Î≥ÄÌôî</h2>
+ <table id="hover">
+  <caption>tr:hover </caption>
+  <tr>
+   <th>name</th>   <th>birthday</th>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+  <tr>
+   <td>hong gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>kim gil</td>   <td>2002.08.17</td>
+  </tr>
+  <tr>
+   <td>lee gil</td>   <td>2010.08.17</td>
+  </tr>
+  <tr>
+   <td>gil do</td>   <td>1990.08.17</td>
+  </tr>
+  <tr>
+   <td>han na</td>   <td>2000.08.17</td>
+  </tr>
+  <tr>
+   <td>hon dal</td>   <td>1910.08.17</td>
+  </tr>
+ </table>
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
