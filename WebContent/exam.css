@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+nav ul {list-style: none;}
+nav li {float:right;
+margin-right: 0.5em;
+display:inline;}
+
+nav a {text-decoration: none;}
+
+nav .mn01:link, nav .mn01:visited {
+	color: black;
+	font-size: small;
+}
+
+
+nav .mn02:link, nav .mn02:visited {
+	color: black;
+	font-size: small;
+	
+}
+
+nav .mn03:link, nav .mn03:visited {
+	color: black;
+	font-size: small;
+}
+
+nav .mn04:link, nav .mn04:visited {
+	color: black;
+	font-size: small;
+	
+}
+
+nav .mn05{
+	color: black;
+	font-size: small;
+	margin-right: 200px;
+}
+
+#container{
+clear:both;
+border: 1px solid; 
+width: 900px;
+height:900px; 
+margin: auto;
+}
+
+
+li .ds01{
+	float:right;
+	margin-left: 1em;
+}
+
+
+#box1 li{
+	  width: 15%; 
+		display:inline;
+		font-size: x-large;
+		text-decoration: none;
+}
+
+
+nav .n01:link, nav .n01:visited {
+	color: black;
+}
+
+
+nav .n02:link, nav .n02:visited {
+	color: black;
+}
+
+nav .n03:link, nav .n03:visited {
+	color: black;
+}
+
+nav .n04:link, nav .n04:visited {
+	color: black;
+}
+
+#box2 li{
+	float:left;
+	font-size: xx-large;
+	list-style-image: url("img/aniyellow.gif");
+	
+}
+
+
+.ds03:link, .ds03:visited {
+	color: black;
+	text-decoration: none;
+}
+
+
+ul#box3 {list-style: none;
+clear:both;
+margin-top: 20px;}
+
+#box3>li{
+	border:1px solid red;
+	box-sizing: border-box;
+}
+
+.c01{
+	float:left;
+	width:402px; height:814px;
+}
+
+.c02{
+	float:left;
+	width:202px;
+	height:814px;
+	display: inline-block;
+}
+
+.c03{
+	float:left;
+	width:230px;
+	height:814px;
+}
+
+
+
